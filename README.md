@@ -8,6 +8,8 @@ The reward mechanism is inspired by Deep Funding (a mechanism of public good fun
 This system is primarily composed of two main components: a Telegram Agent Bot and Dependencies Graph Generation.
 
 ### Telegram Agent Bot
+![image](https://github.com/user-attachments/assets/7d8e6ded-dc01-4d99-a0b7-cd2500ea3c2f)
+
 
 The Telegram Agent Bot serves as an on-chain engagement facilitator in the community’s Telegram group. Its main functions include:
 
@@ -26,6 +28,8 @@ The Telegram Agent Bot serves as an on-chain engagement facilitator in the commu
 
 ### Dependencies Graph Generation
 
+![image](https://github.com/user-attachments/assets/d1ac99f6-1c83-4265-b366-f8a8b9cf88cf)
+
 The Dependencies Graph Generation component focuses on analyzing and visualizing relationships between community members based on the Assist Credit transactions. Key steps include:
 
 1. **On-Chain Data Aggregation**  
@@ -33,12 +37,18 @@ The Dependencies Graph Generation component focuses on analyzing and visualizing
 
 2. **AI-Driven Graph Construction**  
    - An AI agent processes the transaction data to generate various dependency graphs, each highlighting interdependencies and the relative impact of different contributors.
+     
+     ![image](https://github.com/user-attachments/assets/93f4473d-161a-4bdc-846d-a6a7c66be95f)
+
 
 3. **Human Validation**  
    - Community members can spot-check or manually review the AI-generated graphs to ensure they accurately reflect real-world contributions and aren’t skewed by anomalies.
 
 4. **Reward Calculation**  
    - After validation, the dependency graph helps determine how a reward pool (e.g., USDC held in a DAO treasury) should be proportionally allocated to contributors.
+     
+     ![image](https://github.com/user-attachments/assets/5670496f-6c6e-41f8-9b3f-d05d0d49d203)
+
 
 ## Contracts and Subgraph
 
